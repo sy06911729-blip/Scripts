@@ -12,3 +12,7 @@ gradle assembleDebug
 ```
 
 L'APK se trouve ensuite dans `app/build/outputs/apk/debug/app-debug.apk`.
+
+## Compilation depuis GitHub
+
+Une action GitHub compile automatiquement l'APK de debug à chaque push et pull request. Le workflow est défini dans `.github/workflows/android-build.yml`.
